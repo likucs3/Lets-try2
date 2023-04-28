@@ -372,7 +372,7 @@ def get_readable_message():
         buttons = ButtonMaker()
         buttons.sbutton("Refresh", "status refresh")
         buttons.sbutton("Statistics", str(THREE))
-        buttons.buildbutton(f"Repo", f"https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror")
+        buttons.buildbutton(f"😁", f"https://t.me/Crimz_Bots")
         buttons.sbutton("Close", "status close")
         sbutton = buttons.build_menu(3)
         
@@ -382,7 +382,7 @@ def get_readable_message():
             buttons.sbutton(f"{PAGE_NO}/{PAGES}", str(THREE))
             buttons.sbutton("Next⏩", "status nex")
             buttons.sbutton("Refresh", "status refresh")
-            buttons.buildbutton(f"Repo", f"https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror")
+            buttons.buildbutton(f"😁", f"https://t.me/Crimz_Bots")
             buttons.sbutton("Close", "status close")
         else:
             buttons.sbutton("Previous", "status pre")
@@ -698,7 +698,7 @@ def bot_sys_stats():
     mem = virtual_memory().percent
     disk = disk_usage("/").percent
     return f"""
-Modified by @ItsBitDefender
+Modified by @iAmLiKu1
 
 Tasks Running: {tasks}
 
