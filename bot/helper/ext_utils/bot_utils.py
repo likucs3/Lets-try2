@@ -389,7 +389,7 @@ def get_readable_message():
             buttons.sbutton(f"{PAGE_NO}/{PAGES}", str(THREE))
             buttons.sbutton("Next", "status nex")
             buttons.sbutton("Refresh", "status refresh")
-            buttons.buildbutton(f"🔖", f"https://t.me/Crimz_Bots")
+            buttons.buildbutton(f"stats", str(THREE))
             buttons.sbutton("Close", "status close")
             button = buttons.build_menu(3)
             return msg + bmsg, button
