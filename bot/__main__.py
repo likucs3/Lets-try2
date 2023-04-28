@@ -165,7 +165,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
         else:
             sendMessage(start_string, context.bot, update.message, reply_markup)
     else:
-        text = f"Not Authorized user, deploy your own mirror bot"
+        text = f"Bot Started ✅.Now I will send your files or links here."
         if config_dict['PICS']:
             sendPhoto(text, context.bot, update.message, rchoice(config_dict['PICS']), reply_markup)
         else:
@@ -206,7 +206,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror'>Atrocious-Mirror</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b>NOTE: Click on any CMD to see more detalis.</b>
 Choose a help category:
 '''
 
